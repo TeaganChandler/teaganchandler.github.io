@@ -1,0 +1,73 @@
+h1, h2, h3, h4 {color: fuchsia}
+p {color: aliceblue}
+table {color: aliceblue}
+ol {color: aliceblue}
+
+
+h1, h2, h3 {background-color: lavender}
+p {background-color: deepskyblue}
+table {background-color: deepskyblue}
+ol {background-color: deepskyblue}
+h4 {background-color: lavender}
+
+
+body {display: flex}
+body {flex-direction: column}
+body {align-items: center}
+
+html {background-color: aqua}
+
+h1, h2, h3, h4 {border-style: solid}
+
+ol {flex-direction: row}
+ol {justify-content: space-around}
+ol {width: 100%;}
+
+h1, h2, h3, h4 {border-color: cornflowerblue}
+
+ol {border-style: dashed}
+ol {border-width: thick}
+
+table {border-style: dashed}
+table {border-width: thick}
+
+p {border-style: dashed}
+p {border-width: thick}
+
+ol, table, p {border-color: deeppink}
+
+body {font-family: cursive}
+h1, h2, h3, h4 {font-family: Papyrus}
+
+h1, h3 {text-align: center}
+
+h2, h4 {text-align: center}
+
+
+h1 {font-size: 32px;}
+
+h2 {font-size: 24px;}
+
+h3 {font-size: 18px;}
+
+h4 {font-size: 16px;}
+
+body {font-size: 20px;}
+
+img {border-radius: 50%;}
+
+img {border-style: solid}
+img {text-align: left}
+img {border-color: black}
+
+a {border-style: solid}
+a {text-align: right}
+a {border-color: black}
+
+
+/* Create two equal columns that float next to each other */
+h1, h2, h3, h4 {float: left; width: 50%;}
+p, table, ol, a, img {float: left; width: 50%}
+h5 {float: right; width: 50%}
+row:after {content: "p"; display: table; clear: both;}
+
